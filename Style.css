@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+
+/* General Styles */
+.container{
+    font-family: 'Inria Serif', serif;
+    line-height: 1.6;
+    color: #444444;
+    font-size: 1.2500em;
+    margin: 0;
+    width: fit-content;
+    background-color: #F4F4F4;
+}
+
+.input-all{
+    padding:20px;
+}
+
+.header {
+    background-color: #1a237e; 
+    color: #FF9900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem 1.25rem;
+    font-family: 'Inria Serif', serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+header .logo {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 179%;
+    margin-left: 0%;
+    padding-left: 0%;
+    border-left: none;  /* Corrected */
+    align-items: flex-start;
+}
+
+/* General styling for the navigation bar items */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 3.25rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FF9900;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: dashed;
+    background-color: #151FD8F5;
+}
+
+@media (max-width: 768px){
+    .header-menu {
+        justify-content: center;
+        row-gap: 0;
+    }
+}
+@media (max-width: 768px){
+    .header-menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.header-menu ul {
+    margin-top: 20px;
+}
+
+/* Photo Gallery */
+.Hm1 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+/* Main Content */
+.Hm2 {
+    width: 45%;
+    height: 35.5rem;
+    border-radius: 15%;
+    margin-left: 6.25rem;
+}
+.Hm3 {
+    width: 45%;
+    border-radius: 15%;
+    height: 35.5rem;
+}
+.content {
+    padding: 1.25rem;
+    font-family: 'Inria Serif', serif;
+}
+
+.content h1 {
+    color: #444444;
+    font-size: 1.75rem;
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 0.01rem;
+}
+
+.content h2 {
+    margin-top: 1.25rem;
+    color: #444444;
+    font-size: 1.75rem;
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 0.01rem;
+}
+
+/* Footer Styles */
+.footer-section {
+    background-color: #1a237e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1.75rem;
+    padding: .625rem 1.75rem;
+}
+
+.footer-section .logo {
+    display: inline-flex;
+    height: 5rem;
+    align-items: flex-start;  /* Corrected */
+    border-radius: 179%;
+}
+
+.copyrights {
+    color: #FF9900;
+    font-size: 1rem;
+}
+
+.footer-content-policy {
+    display: flex;
+    flex-direction: column;
+}
+
+.policy-1 {
+    margin-right: 10%;
+    color: #FF9900;
+    font-size: 1rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+.terms {
+    margin-right: 10%;
+    color: #FF9900;
+    font-size: 1rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+@media (max-width: 767px){
+    .footer-section {
+        justify-content: center;
+        padding: 30px 0;
+        column-gap: 20px;
+    }
+}
+
+/* Tourist spot main */
+.content2 {
+    margin-left: .5rem;
+}
+.content2 h1, .content2 h2, .content2 h3, .content2 h4 {
+    font-size: 28px;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Main Content for Tourist Spot */
+.tm1 {
+    width: 60%;
+    text-indent: 1rem; 
+}
+
+.Tm1 {
+    width: 35%;
+    height: 18rem;
+    position: absolute;
+    top: 8rem;
+    right: .5rem;
+    border-radius: 1rem;
+    display: block;
+}
+
+.Tm11 {
+    margin-right: 1rem;
+}
+
+.Tm2 {
+    margin-left: 4%;
+    width: 50%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.Tm3 {
+    width: 20%;
+}
+
+.Tm4 {
+    height: 24rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.content2 h3 {
+    width: 22%;
+    position: absolute;
+    top: 69rem;
+    right: 32.5rem;
+}
+
+.tm2 {
+    width: 55%;
+    position: absolute;
+    top: 75rem;
+    right: 1rem;
+    display: block;
+    text-indent: 1rem; 
+}
+
+.Tm5 {
+    width: 38%;
+    height: 25rem;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;  /* Corrected */
+}
+
+.Tm55 {
+    margin-left: 3rem;
+}
+
+.Tm6 {
+    width: 38%;
+    height: 25rem;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;  /* Corrected */
+}
+
+.Tm66 {
+    margin-left: 3rem;
+}
+
+.tm3 {
+    width: 55%;
+    position: absolute;
+    top: 100rem;
+    right: 1rem;
+    display: block;
+    text-indent: 1rem; 
+}
+
+.content2 h4 {
+    width: 20%;
+    position: absolute;
+    top: 95rem;
+    right: 34.5rem;
+}
+
+/* Traditional Food */
+.content3 {
+    font-size: 20px;
+    margin-left: .5rem;
+}
+.content3 h1 {
+    font-size: 28px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.f1 {
+    width: 60%;
+    font-size: 20px;
+    text-indent: 1rem; 
+}
+
+.tf1 {
+    position: absolute;
+    top: 18.75rem;
+    right: 0.625rem;
+    height: 15rem;
+    width: 33%;
+    border-radius: 1rem;
+    display: block;
+}
+
+.content3 h2 {
+    font-size: 28px;
+    width: 20%;
+    position: absolute;
+    top: 35rem;
+    right: 38.5rem;
+}
+
+.content3 h3 {
+    font-size: 1.75rem;
+   
+}
+
+.f2 {
+    width: 60%;
+    position: absolute;
+    top: 37.5rem;
+    right: .5rem;
+    display: flex;
+    text-indent: 1rem; 
+}
+
+.tf2 {
+    width: 35%;
+    height: 15rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.tf3 {
+    width: 50%;
+    height: 20.625rem;
+    margin-left: 25%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+/* Transportation */
+.content4 {
+    margin-left: 1rem;
+}
+.t1, .t2, .t3 {
+    width: 32%;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.t4 {
+    width: 35%;
+    height: 24rem;
+    position: absolute;
+    border-radius: 1rem;
+    right: 1rem;
+}
+
+.tp1 {
+    width: 60%;
+}
+
+/* Emergency Situation */
+.content5 {
+    margin-left: 1rem;
+}
+
+.Em1 {
+    width: 25%;
+    height: 20rem;
+    margin-left: 20rem;
+    border-radius: 1rem;
+}
+
+.Em2 {
+    width: 25%;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-left: 3rem;
+}
+
+.Em3 {
+    width: 45%;
+    height: 18rem;
+    margin-left: 25rem;
+    border-radius: 1rem;
+}
+
+.content5 h1 {
+    font-size: 1.75rem;
+}
+
+.content5 h2 {
+    margin-left: 5rem;
+    word-spacing: 0.001rem;
+}
+
+.em2 {
+    width: 30%;
+    margin-left: 5rem;
+}
+
+.content5 h3 {
+    width: 30%;
+    position: absolute;
+    right: 15rem;
+    top: 68rem;
+    text-transform: uppercase;
+}
+
+.em3 {
+    width: 40%;
+    position: absolute;
+    right: 5rem;
+    top: 70rem;
+}
+
+/* Contact Form */
+.content6 {
+    margin-left: 1rem;
+}
+
+
+.content-6-text{
+    text-align: center;
+    color:orange;
+    font-weight: 700;
+}
+.contact-form {
+    background-color: #1a237e;
+    color: #ff9900;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-left: 32rem;
+    width: 30rem;
+    position: absolute;
+    top: 20rem;
+}
+
+.contact-form h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.938rem;
+}
+
+.contact-form label {
+    margin-right: 1rem;
+    text-align: left;
+    margin-bottom: 0.313rem;
+    font-size: 0.875rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding:.5em;
+    margin-bottom: 0.938rem;
+    border: 1px solid #ccc;
+    border-radius: 0.313rem;
+    align-items: center;
+}
+
+.form-field{
+    padding: 2em;
+}
+.contact-form input[type="radio"] {
+    margin-right: 0.313rem;
+}
+
+.contact-form button {
+    background-color: #ff9900;
+    color: #444444;
+    border: none;
+    padding: 0.625rem 0.938rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 10rem;
+}
+
+.contact-form button:hover {
+    background-color: #ffeacb;
+}
+
+.footer {
+    background-color: #1a237e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1.75rem;
+    padding: .625rem 1.75rem;
+    top: 80rem;
+    position: absolute;
+    width: 91.4rem;
+}
+
+.footer .logo {
+    display: inline-flex;
+    height: 5rem;
+    align-items: flex-start;  /* Corrected */
+    border-radius: 179%;
+}
+
+.header1 {
+    background-color: #1a237e; 
+    color: #FF9900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem 1.25rem;
+    font-family: 'Inria Serif', serif;
+    font-size: 1rem;
+    font-style: italic;
+    width: 92.4rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header, .footer-section {
+        padding: 20px;
+        height: 4rem; 
+        width: 4rem;
+        margin: auto; 
+    }
+
+    .header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding: 10px;
+    }
+  
+    .content h1, .content h2, .content h3, .content h4 {
+        font-size: 1.2rem;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .footer-section {
+        padding: 10px;
+        row-gap: 10px;
+    }
+}
+
+/* Mobile (Portrait) */
+@media (max-width: 480px) {
+    .header img {
+        width: 60px;
+    }
+
+    nav ul li {
+        margin: 5px 0
+    }}
