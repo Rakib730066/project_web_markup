@@ -1,5 +1,5 @@
 o Student name: Rakib Sheikh
 o Student number: 730066
 o Student class: IT (C)
-o GitHub Repository: https://github.com/Rakib730066/Web_Markup
-o GitHub Pages URL: your github pages URL*
+o GitHub Repository: https://github.com/Rakib730066/project_web_markup
+o GitHub Pages URL: https://rakib730066.github.io/project_web_markup/
